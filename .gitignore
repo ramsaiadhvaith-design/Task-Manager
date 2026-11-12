@@ -1,0 +1,20 @@
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+backend/target/
+*.class
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Backend local secrets
+backend/.env
+backend/.env.*
+backend/src/main/resources/application-local.properties
